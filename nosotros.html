@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Nosotros | The sneakers - Store</title>
@@ -14,7 +15,7 @@
     <div class="contenedorgrid">
 
         <nav class="base" id="nav">
-            <a href=""><img src="img/logo.png" alt="Logotipo"></a>
+            <a href="index.html"><img src="img/logo.png" alt="Logotipo"></a>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
@@ -25,13 +26,13 @@
             <div>
                 <ul>
                     <ul class="redes">
-                        <li>
+                        <li class="anima">
                             <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
                         </li>
-                        <li>
+                        <li class="anima">
                             <a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
                         </li>
-                        <li>
+                        <li class="anima">
                             <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
                         </li>
                     </ul>
@@ -47,35 +48,35 @@
 
             <section class="infogrid">
                 <div class="contenidonosotross">
-                    <div>
+                    <div data-aos="fade-right">
                         <img class="imgn" src="img/cuerponosotros.jpeg" alt="">
                     </div>
-                    <div class="bloquetexto">
+                    <div class="bloquetexto" data-aos="fade-left">
                         <p>Encuentra lo nuevo, lo &uacute;nico y lo cl&aacute;sico en sneakers, tenis casuales, ropa y accesorios para tu look casual y urbano. Descubre incre&iacute;bles descuentos durante Hot Sale 2022 con env&iacute;o gratis.</p>
                     </div>
                 </div>
             </section>
 
             <article class="elegirnos">
-                <div class="titulon">
+                <div class="titulon" data-aos="flip-left">
                     <h1>¿Por qué elegirnos?</h1>
                 </div>
                 <section class="nosotrossegunda">
-                    <figure class="fign">
+                    <figure class="fign" data-aos="fade-up">
                         <img src="img/servicio.png " alt=" ">
                         <figcaption>
                             <h2>Calidad</h2>
                             <p>Nuestros productos son de la mejor calidad y son fabricados con materiales de alta calidad.</p>
                         </figcaption>
                     </figure>
-                    <figure class="fign">
+                    <figure class="fign" data-aos="fade-up">
                         <img src="img/servicio.png " alt=" ">
                         <figcaption>
                             <h2>Servicio</h2>
                             <p>Nuestros productos son de la mejor calidad y son fabricados con materiales de alta calidad.</p>
                         </figcaption>
                     </figure>
-                    <figure class="fign">
+                    <figure class="fign" data-aos="fade-up">
                         <img src="img/servicio.png " alt=" ">
                         <figcaption>
                             <h2>El mejor precio</h2>
@@ -87,7 +88,7 @@
         </main>
 
         <footer class="footers " id="pie">
-            <img src="img/logo.png " alt=" ">
+            <div data-aos="zoom-out"><img src="img/logo.png" alt=""></div>
             <ul class="redes ">
                 <li>
                     <a href="https://facebook.com "><img src="img/facebook.png " alt=" "></a>
@@ -103,5 +104,9 @@
         </footer>
     </div>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

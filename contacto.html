@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Contacto | The sneakers - Store</title>
@@ -15,7 +16,7 @@
     <div class="contenedorgrid">
 
         <nav class="base" id="nav">
-            <a href=""><img src="img/logo.png" alt="Logotipo"></a>
+            <a href="index.html"><img src="img/logo.png" alt="Logotipo"></a>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
@@ -26,13 +27,13 @@
             <div>
                 <ul>
                     <ul class="redes">
-                        <li>
+                        <li class="anima">
                             <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
                         </li>
-                        <li>
+                        <li class="anima">
                             <a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
                         </li>
-                        <li>
+                        <li class="anima">
                             <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
                         </li>
                     </ul>
@@ -47,7 +48,7 @@
 
         <main class="main" id="contenido">
             <article class="contac">
-                <h1 class="titulo">Ponte en contacto</h1>
+                <h1 class="titulo" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">Ponte en contacto</h1>
                 <p class="intro">Recibe ayuda con los problemas comunes que figuran a continuación.</br> Si necesitas ayuda con otro problema de Google Drive, ponte en contacto con nosotros.</p>
             </article>
             <section class="forms">
@@ -76,7 +77,7 @@
             </section>
         </main>
         <footer class="footers" id="pie">
-            <div><img src="img/logo.png" alt=""></div>
+            <div data-aos="zoom-out"><img src="img/logo.png" alt=""></div>
             <ul class="redes">
                 <li>
                     <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
@@ -92,5 +93,9 @@
         </footer>
     </div>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

@@ -66,6 +66,7 @@ body {
 .base a:hover {
     text-decoration: none;
     color: orange;
+    cursor: pointer;
 }
 
 .base img {
@@ -95,6 +96,7 @@ body {
 
 .footers {
     padding: 20px;
+    background: linear-gradient(90deg, rgba(180, 140, 58, 1) 0%, rgba(252, 176, 69, 1) 47%, rgba(253, 153, 29, 1) 72%);
 }
 
 .footers img {
@@ -113,6 +115,14 @@ body {
     height: 30px;
     padding: 5px;
 }
+
+.anima:hover {
+    transform: rotateZ(360deg);
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+@keyframes identifier {}
 
 .contenedorgrid {
     display: grid;
@@ -496,6 +506,12 @@ div {
     border-radius: 5px;
     width: 80%;
     margin-top: 20px;
+}
+
+.sneakers button:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(235, 144, 18, 1) 0%, rgba(184, 170, 31, 1) 41%, rgba(167, 180, 32, 1) 60%, rgba(234, 149, 19, 1) 100%);
+    transition: all 3s;
 }
 
 #pedidos {
