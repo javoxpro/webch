@@ -1,116 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Nosotros | The sneakers - Store</title>
 </head>
 
 <body>
-    <div class="contenedorgrid">
-
-        <nav class="base" id="nav">
-            <a href="index.html"><img src="img/logo.png" alt="Logotipo"></a>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="sneakers.html">Sneakers</a></li>
-                <li><a href="pedidos.html">Pedidos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div>
-                <ul>
-                    <ul class="redes">
-                        <li class="anima">
-                            <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
-                        </li>
-                        <li class="anima">
-                            <a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
-                        </li>
-                        <li class="anima">
-                            <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
-                        </li>
-                    </ul>
+    <nav class="base navbar navbar-expand-lg navbar-light bg-light" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-4 mb-lg-0 justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sneakers.html">Sneakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pedidos.html">Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
                 </ul>
+                <span class="">
+                    <ul>
+                        <ul class="redes">
+                            <li class="anima nav-item">
+                                <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
+                            </li>
+                            <li class="anima nav-item">
+                                <a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
+                            </li>
+                            <li class="anima nav-item">
+                                <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </ul>
+                  </span>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <header class="hero" id="heros">
-            <a href=""><img src="img/nosotros.jpg" alt=""></a>
-        </header>
 
-        <main class="main" id="contenido">
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/nosotros.jpg" class="d-block w-100" alt="Nike">
+                </div>
 
-            <section class="infogrid">
-                <div class="contenidonosotross">
-                    <div data-aos="fade-right">
-                        <img class="imgn" src="img/cuerponosotros.jpeg" alt="">
+            </div>
+        </div>
+
+        <section class="py-3  pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                        <img class="img-fluid nosotrosimg" src="img/cuerponosotros.jpeg" alt="">
                     </div>
-                    <div class="bloquetexto" data-aos="fade-left">
-                        <p>Encuentra lo nuevo, lo &uacute;nico y lo cl&aacute;sico en sneakers, tenis casuales, ropa y accesorios para tu look casual y urbano. Descubre incre&iacute;bles descuentos durante Hot Sale 2022 con env&iacute;o gratis.</p>
+                    <div class="col-lg-6 col-md-12 col-sm-12 text-center my-auto " data-aos="fade-left">
+                        <p class="bloquetexto">Encuentra lo nuevo, lo &uacute;nico y lo cl&aacute;sico en sneakers, tenis casuales, ropa y accesorios para tu look casual y urbano. Descubre incre&iacute;bles descuentos durante Hot Sale 2022 con env&iacute;o gratis.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <article class="elegirnos">
-                <div class="titulon" data-aos="flip-left">
-                    <h1>¿Por qué elegirnos?</h1>
+        <section class="py-3  pt-5 pb-5">
+            <div class="container-fluid">
+                <h1 class="titulon" data-aos="flip-left">¿Por qué elegirnos?</h1>
+
+                <div class="row justify-content-center text-center">
+                    <article class="fign col-sm-12 col-md-3 col-lg-3">
+                        <img src="img/servicio.png" alt="" class="w-25 pb-3">
+                        <h2>Calidad</h2>
+                        <p>Nuestros productos son de la mejor calidad y son fabricados con materiales de alta calidad.</p>
+                    </article>
+                    <article class="fign col-sm-12 col-md-4 col-lg-3 text-center justify-content-center">
+                        <img src="img/servicio.png" alt="" class="w-25 pb-3">
+                        <h2>Servicio</h2>
+                        <p>Nuestros productos son de la mejor calidad y son fabricados con materiales de alta calidad.</p>
+                    </article>
+                    <article class="fign col-sm-12 col-md-4 col-lg-3 ">
+                        <img src="img/servicio.png" alt="" class="w-25 pb-3">
+                        <h2>Precio</h2>
+                        <p>Nuestros productos son de la mejor calidad y son fabricados con materiales de alta calidad.</p>
+                    </article>
                 </div>
-                <section class="nosotrossegunda">
-                    <figure class="fign" data-aos="fade-up">
-                        <img src="img/servicio.png " alt=" ">
-                        <figcaption>
-                            <h2>Calidad</h2>
-                            <p>Nuestros productos son de la mejor calidad y son fabricados con materiales de alta calidad.</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="fign" data-aos="fade-up">
-                        <img src="img/servicio.png " alt=" ">
-                        <figcaption>
-                            <h2>Servicio</h2>
-                            <p>Nuestros productos son de la mejor calidad y son fabricados con materiales de alta calidad.</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="fign" data-aos="fade-up">
-                        <img src="img/servicio.png " alt=" ">
-                        <figcaption>
-                            <h2>El mejor precio</h2>
-                            <p>Nuestros productos son de la mejor calidad y son fabricados con materiales de alta calidad.</p>
-                        </figcaption>
-                    </figure>
-                </section>
-            </article>
-        </main>
 
-        <footer class="footers " id="pie">
-            <div data-aos="zoom-out"><img src="img/logo.png" alt=""></div>
-            <ul class="redes ">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footers text-center text-white">
+
+        <div class="container pt-4">
+            <img src="img/logo.png" alt="">
+            <ul class="redes">
                 <li>
-                    <a href="https://facebook.com "><img src="img/facebook.png " alt=" "></a>
+                    <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com "><img src="img/twitter.png " alt=" "></a>
+                    <a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
                 </li>
                 <li>
-                    <a href="https://instagram.com "><img src="img/instagram.png " alt=" "></a>
+                    <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
                 </li>
             </ul>
-            <p class="textoparrafo "><a href="# ">Aviso de privacidad - Todos los derechos reservados</a></p>
-        </footer>
-    </div>
+        </div>
+        <div class="text-center text-dark p-3">
+            <p class="textoparrafo"><a href="#">Aviso de privacidad - Todos los derechos reservados</a></p>
+        </div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
 </body>
-
 
 </html>

@@ -1,108 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Pedidos | The sneakers - Store</title>
 </head>
 
 <body>
-
-    <div class="contenedorgrid">
-
-        <nav class="base" id="nav">
-            <a href="index.html"><img src="img/logo.png" alt="Logotipo"></a>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="sneakers.html">Sneakers</a></li>
-                <li><a href="pedidos.html">Pedidos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div>
-                <ul>
-                    <ul class="redes">
-                        <li class="anima">
-                            <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
-                        </li>
-                        <li class="anima">
-                            <a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
-                        </li>
-                        <li class="anima">
-                            <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
-                        </li>
-                    </ul>
+    <nav class="base navbar navbar-expand-lg navbar-light bg-light" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-4 mb-lg-0 justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sneakers.html">Sneakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pedidos.html">Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
                 </ul>
+                <span class="">
+                    <ul>
+                        <ul class="redes">
+                            <li class="anima nav-item">
+                                <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
+                            </li>
+                            <li class="anima nav-item">
+                                <a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
+                            </li>
+                            <li class="anima nav-item">
+                                <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </ul>
+                  </span>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <header class="hero" id="heros">
-            <a href=""><img src="img/pedidos.jpg" alt=""></a>
-        </header>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/pedidos.jpg" class="d-block w-100" alt="Nike">
+                </div>
 
-        <main class="main" id="contenido">
-
-            <div class="porque">
-                <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">¿Cómo comprar?</h1>
             </div>
-            <section>
-                <div id="pedidos">
-                    <h2 class="pedidos">1. Selecciona tu producto</h2>
-                    <p class="pedidos">
+        </div>
+
+        <section class="py-2">
+            <div class="col-12 text-center pt-5 pb-5 p-5" data-aos="fade-up">
+                <div class="col-md-12 col-sm-12 col-lg-12 text-center w-100 mx-auto">
+                    <h2 class="titulon">1. Selecciona tu producto</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis.
+                    </p>
+                </div>
+                <div class="centrado col-md-12 col-sm-12 col-lg-12 text-center w-100 mx-auto">
+                    <h2 class="titulon">2. Selecciona tu producto</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis.
+                    </p>
+                </div>
+                <div class="col-md-12 col-sm-12 col-lg-12 text-center w-100 mx-auto">
+                    <h2 class="titulon">3. Selecciona tu producto</h2>
+                    <p class="w-100">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis.
+                    </p>
+                </div>
+                <div class="col-md-12 col-sm-12 col-lg-12 text-center w-100 mx-auto">
+                    <h2 class=" titulon ">4. Selecciona tu producto</h2>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis.
                     </p>
                 </div>
 
-            </section>
-            <section>
+            </div>
+        </section>
+    </main>
 
-                <div id="pedidos">
-                    <h2 class="pedidos">1. Selecciona tu producto</h2>
-                    <p class="pedidos">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis.
-                    </p>
-                </div>
+    <footer class="footers text-center text-white ">
 
-            </section>
-            <section>
-
-                <div id="pedidos">
-                    <h2 class="pedidos">1. Selecciona tu producto</h2>
-                    <p class="pedidos">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quibusdam, quis.
-                    </p>
-                </div>
-
-            </section>
-        </main>
-        <footer class="footers" id="pie">
-            <div data-aos="zoom-out"><img src="img/logo.png" alt=""></div>
-            <ul class="redes">
+        <div class="container pt-4 ">
+            <img src="img/logo.png " alt=" ">
+            <ul class="redes ">
                 <li>
-                    <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
+                    <a href="https://facebook.com "><img src="img/facebook.png " alt=" "></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
+                    <a href="https://twitter.com "><img src="img/twitter.png " alt=" "></a>
                 </li>
                 <li>
-                    <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
+                    <a href="https://instagram.com "><img src="img/instagram.png " alt=" "></a>
                 </li>
             </ul>
-            <p class="textoparrafo"><a href="#">Aviso de privacidad - Todos los derechos reservados</a></p>
-        </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        </div>
+        <div class="text-center text-dark p-3 ">
+            <p class="textoparrafo "><a href="# ">Aviso de privacidad - Todos los derechos reservados</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
     <script>
         AOS.init();
     </script>
 </body>
-
 
 </html>

@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+form,
+form::placeholder,
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+}
+
+#menu img {
+    width: 150px;
+    height: 150px;
+}
+
+#menu .redes img {
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+}
+
+.navbar-nav {
+    text-decoration: none;
+    color: #000;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        font-size: 10px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: orange;
+    cursor: pointer;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.anima:hover {
+    transform: rotateZ(360deg);
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.texto-intro {
+    color: red;
+    font-size: 18px;
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.intro {
+    font-size: 14px;
+    align-items: center;
+}
+
+element.style {}
+
+@media (min-width: 576px) .card-group>.card:not(:first-child) .card-header,
+.card-group>.card:not(:first-child) .card-img-top {
+    border-top-left-radius: 0px;
+}
+
+@media (min-width: 576px) .card-group>.card:not(:last-child) .card-header,
+.card-group>.card:not(:last-child) .card-img-top {
+    border-top-right-radius: 0px;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    width: 100%;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    justify-content: center;
+}
+
+.card img {
+    width: 200px;
+}
+
+.textoparrafo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footers {
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(180, 140, 58, 1) 0%, rgba(252, 176, 69, 1) 47%, rgba(253, 153, 29, 1) 72%);
+}
+
+.footers ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: space-between;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footers img {
+    width: 150px;
+    height: 150px;
+}
+
+.footers .redes img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-light .navbar-toggler {
+    color: orange;
+    border-color: transparent;
+}
+
+.nosotrosimg {
+    width: 100%;
+    height: 100%;
+}
+
+.bloquetexto {
+    font-size: 20px;
+}
+
+.titulon {
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.fign {
+    margin: 10px;
+    padding: 40px;
+}
+
+.sneakers img {
+    width: 300px;
+    height: 300px;
+}
+
+.sneakers button {
+    background-color: orange;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.sneakers button:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(235, 144, 18, 1) 0%, rgba(184, 170, 31, 1) 41%, rgba(167, 180, 32, 1) 60%, rgba(234, 149, 19, 1) 100%);
+    transition: all 3s;
+}
+
+.btn-primary {
+    background-color: orange;
+    border: 0px;
+}
+
+.btn-primary:hover {
+    background-color: red;
+    border: 0px;
+}
+
+.form-label {
+    color: rgba(235, 144, 18, 1)
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    .intro {
+        font-size: 18px;
+    }
+    .navbar-nav {
+        text-decoration: none;
+        color: #000;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        margin: 5px;
+    }
+}
